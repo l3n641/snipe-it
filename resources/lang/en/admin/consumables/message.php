@@ -2,34 +2,34 @@
 
 return array(
 
-    'does_not_exist' => 'Consumable does not exist.',
+    'does_not_exist' => '耗材不存在。',
 
     'create' => array(
-        'error'   => 'Consumable was not created, please try again.',
-        'success' => 'Consumable created successfully.'
+        'error'   => '耗材未被创建，请重试。',
+        'success' => '耗材创建成功。'
     ),
 
     'update' => array(
-        'error'   => 'Consumable was not updated, please try again',
-        'success' => 'Consumable updated successfully.'
+        'error'   => '耗材未被更新，请重试。',
+        'success' => '耗材更新成功。'
     ),
 
     'delete' => array(
-        'confirm'   => 'Are you sure you wish to delete this consumable?',
-        'error'   => 'There was an issue deleting the consumable. Please try again.',
-        'success' => 'The consumable was deleted successfully.'
+        'confirm'   => '您确定希望删除此耗材？',
+        'error'   => '删除耗材失败，请重试',
+        'success' => '成功删除此耗材。'
     ),
 
      'checkout' => array(
-        'error'   		=> 'Consumable was not checked out, please try again',
-        'success' 		=> 'Consumable checked out successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.'
+        'error'   		=> '耗材领取失败，请重试',
+        'success' 		=> '耗材领取成功',
+        'user_does_not_exist' => '无效用户，请重试。'
     ),
 
     'checkin' => array(
-        'error'   		=> 'Consumable was not checked in, please try again',
-        'success' 		=> 'Consumable checked in successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.'
+        'error'   		=> '耗材登记失败，请重试',
+        'success' 		=> '耗材登记成功',
+        'user_does_not_exist' => '无效用户，请重试。'
     )
 
 

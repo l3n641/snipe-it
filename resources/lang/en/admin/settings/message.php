@@ -4,19 +4,19 @@ return array(
 
 
     'update' => array(
-        'error'                 => 'An error has occurred while updating. ',
-        'success'               => 'Settings updated successfully.'
+        'error'                 => '更新过程中出现了问题。',
+        'success'               => '设置配置信息更新成功。'
     ),
     'backup' => array(
-        'delete_confirm'        => 'Are you sure you would like to delete this backup file? This action cannot be undone. ',
-        'file_deleted'          => 'The backup file was successfully deleted. ',
-        'generated'             => 'A new backup file was successfully created.',
-        'file_not_found'        => 'That backup file could not be found on the server.',
+        'delete_confirm'        => '你确定你想要删除该备份文件? 此操作无法撤消。 ',
+        'file_deleted'          => '备份文件已成功删除。 ',
+        'generated'             => '成功地创建了一个新的备份文件。',
+        'file_not_found'        => '在服务器上找不到备份文件。',
     ),
     'purge' => array(
-        'error'     => 'An error has occurred while purging. ',
-        'validation_failed'     => 'Your purge confirmation is incorrect. Please type the word "DELETE" in the confirmation box.',
-        'success'               => 'Deleted records successfully purged.'
+        'error'     => '清除过程中出现了错误。 ',
+        'validation_failed'     => '你的清除确认不正确，请在输入框中输入“DELETE”。',
+        'success'               => '删除记录已被成功的清除。'
     ),
 
 );
