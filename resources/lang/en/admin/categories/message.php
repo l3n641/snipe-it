@@ -2,24 +2,24 @@
 
 return array(
 
-    'does_not_exist' => 'Category does not exist.',
-    'assoc_models'	 => 'This category is currently associated with at least one model and cannot be deleted. Please update your models to no longer reference this category and try again. ',
-    'assoc_items'	 => 'This category is currently associated with at least one :asset_type and cannot be deleted. Please update your :asset_type  to no longer reference this category and try again. ',
+    'does_not_exist' => '分类不存在',
+    'assoc_models'	 => '此分类下至少还有一个相关资产型号，目前不能被删除，请你确定您的所有资产型号不在此分类下，然后重试。',
+    'assoc_items'	 => '此分类下至少还有一个相关资产类型，目前不能被删除，请你确定您的所有资产类型不在此分类下，然后重试。',
 
     'create' => array(
-        'error'   => 'Category was not created, please try again.',
-        'success' => 'Category created successfully.'
+        'error'   => '分类创建失败，请重试。',
+        'success' => '分类创建成功'
     ),
 
     'update' => array(
-        'error'   => 'Category was not updated, please try again',
-        'success' => 'Category updated successfully.'
+        'error'   => '分类更新失败，请重试',
+        'success' => '分类更新成功'
     ),
 
     'delete' => array(
-        'confirm'   => 'Are you sure you wish to delete this category?',
-        'error'   => 'There was an issue deleting the category. Please try again.',
-        'success' => 'The category was deleted successfully.'
+        'confirm'   => '你确定要删除这个分类吗？',
+        'error'   => '删除分类出现异常，请重试。',
+        'success' => '分类已经被成功删除。'
     )
 
 );

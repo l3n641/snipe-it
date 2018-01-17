@@ -1,12 +1,12 @@
 <?php
 
 return array(
-    'about_asset_depreciations'  			=> 'About Asset Depreciations',
-    'about_depreciations'  					=> 'You can set up asset depreciations to depreciate assets based on straight-line depreciation.',
-    'asset_depreciations'  					=> 'Asset Depreciations',
-    'create'  					            => 'Create Depreciation',
-    'depreciation_name'  					=> 'Depreciation Name',
-    'number_of_months'  					=> 'Number of Months',
-    'update'  					            => 'Update Depreciation',
+    'about_asset_depreciations'  			=> '关于资产折旧',
+    'about_depreciations'  					=> '你可以设置资产折旧时间期限',
+    'asset_depreciations'  					=> '资产折旧',
+    'create'  					            => '新建折旧',
+    'depreciation_name'  					=> '折旧名称',
+    'number_of_months'  					=> '月数',
+    'update'  					            => '更新折旧',
 
 );

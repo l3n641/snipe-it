@@ -2,26 +2,26 @@
 
 return array(
 
-    'does_not_exist' => 'Supplier does not exist.',
+    'does_not_exist' => '供应商不存在。',
 
 
     'create' => array(
-        'error'   => 'Supplier was not created, please try again.',
-        'success' => 'Supplier created successfully.'
+        'error'   => '供应商没有被创建，请重试。',
+        'success' => '供应商创建成功。'
     ),
 
     'update' => array(
-        'error'   => 'Supplier was not updated, please try again',
-        'success' => 'Supplier updated successfully.'
+        'error'   => '供应商没有被更新，请重试。',
+        'success' => '供应商更新成功。'
     ),
 
     'delete' => array(
-        'confirm'   => 'Are you sure you wish to delete this supplier?',
-        'error'   => 'There was an issue deleting the supplier. Please try again.',
-        'success' => 'Supplier was deleted successfully.',
-        'assoc_assets'	 => 'This supplier is currently associated with :asset_count asset(s) and cannot be deleted. Please update your assets to no longer reference this supplier and try again. ',
-        'assoc_licenses'	 => 'This supplier is currently associated with :licenses_count licences(s) and cannot be deleted. Please update your licenses to no longer reference this supplier and try again. ',
-        'assoc_maintenances'	 => 'This supplier is currently associated with :asset_maintenances_count asset maintenances(s) and cannot be deleted. Please update your asset maintenances to no longer reference this supplier and try again. ',
+        'confirm'   => '你确定要删除这个供应商吗？',
+        'error'   => '删除供应商的过程中出现了一点儿问题，请重试。',
+        'success' => '供应商成功被删除。',
+        'assoc_assets'	 => '此供应商下至少还有 :asset_count 个相关模板，目前不能被删除，请你确定您的所有资 产不在此分类下，然后重试。 ',
+        'assoc_licenses'	 => '此供应商目前与 :licenses_count 个许可证相关联，不能删除。请更新您的许可证，断开与此供应商的关联，然后重试。 ',
+        'assoc_maintenances'	 => '此供应商下至少还有 :asset_count 个相关模板，目前不能被删除，请你确定您的所有资产不在此分类下，然后重试。 ',
     )
 
 );
