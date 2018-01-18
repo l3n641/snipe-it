@@ -2,7 +2,7 @@
 
 {{-- Page title --}}
 @section('title')
-    Import History
+    导出历史
     @parent
 @stop
 

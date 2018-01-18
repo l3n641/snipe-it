@@ -115,7 +115,7 @@
                         </div>
                         <div class="col-md-3">
                             @can('create', \App\Models\Accessory::class)
-                                <a class="btn bg-orange" style="width: 100%" href="{{ route('accessories.create') }}">新附件</a>
+                                <a class="btn bg-orange" style="width: 100%" href="{{ route('accessories.create') }}">新配件</a>
                             @endcan
                         </div>
                         <div class="col-md-3">

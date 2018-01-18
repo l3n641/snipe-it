@@ -719,11 +719,7 @@
       <footer class="main-footer hidden-print">
         <div class="pull-right hidden-xs">
           <b>Version</b> {{ config('version.app_version') }} - build {{ config('version.build_version') }} ({{ config('version.branch') }})
-          <a target="_blank" class="btn btn-default btn-xs" href="https://snipe-it.readme.io/docs/overview" rel="noopener">用户手册</a>
-          <a target="_blank" class="btn btn-default btn-xs" href="https://snipeitapp.com/support/" rel="noopener">报告错误</a>
         </div>
-        <a target="_blank" href="https://snipeitapp.com" rel="noopener">Snipe-IT</a> 开源
-          project, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px"></i> by <a href="https://twitter.com/snipeitapp" rel="noopener">@snipeitapp</a>在 <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" rel="noopener">AGPL3 证书下</a>.
       </footer>
 
 
