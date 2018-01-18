@@ -120,7 +120,7 @@
     'manufacturer'			=> '制造商',
     'manufacturers'			=> '制造商',
     'markdown'				=> '该字段可以使用 <a href="https://help.github.com/articles/github-flavored-markdown/">Github flavored markdown</a>',
-    'min_amt'				=> 'Min. QTY',
+    'min_amt'				=> '最小数量',
     'min_amt_help'	=> '触发告警的最小数量',
     'model_no'				=> '型号',
     'months'				=> '月数',

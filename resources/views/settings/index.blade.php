@@ -53,7 +53,7 @@
         <div class="box-body text-center">
           <a href="{{ route('groups.index') }}" class="btn btn-lg btn-white"><i class="fa fa-group fa-3x"></i></a>
           <br>
-          租
+          分组管理
           <p class="help-block">帐户权限组</p>
         </div>
       </div>

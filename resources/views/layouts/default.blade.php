@@ -317,15 +317,6 @@
                          </a>
                      </li>
 
-
-
-                     @can('self.api')
-                     <li>
-                         <a href="{{ route('user.api') }}">
-                             <i class="fa fa-user-secret fa-fw"></i> 管理API
-                         </a>
-                     </li>
-                     @endcan
                      <li class="divider"></li>
                      <li>
                          <a href="{{ url('/logout') }}">
