@@ -15,7 +15,7 @@
       <div class="box-header with-border">
         <h3 class="box-title">{{ trans('admin/custom_fields/general.fieldsets') }}</h3>
         <div class="box-tools pull-right">
-          <a href="{{ route('fieldsets.create') }}" class="btn btn-sm btn-primary" data-toggle="tooltip" title="Create a new fieldset">{{ trans('admin/custom_fields/general.create_fieldset') }}</a>
+          <a href="{{ route('fieldsets.create') }}" class="btn btn-sm btn-primary" data-toggle="tooltip" title="创建一个新的字段集">{{ trans('admin/custom_fields/general.create_fieldset') }}</a>
         </div>
       </div><!-- /.box-header -->
 
@@ -77,7 +77,7 @@
       <div class="box-header with-border">
         <h3 class="box-title">{{ trans('admin/custom_fields/general.custom_fields') }}</h3>
         <div class="box-tools pull-right">
-          <a href="{{ route('fields.create') }}" class="btn btn-sm btn-primary" data-toggle="tooltip" title="Create a new custom field">{{ trans('admin/custom_fields/general.create_field') }}</a>
+          <a href="{{ route('fields.create') }}" class="btn btn-sm btn-primary" data-toggle="tooltip" title="创建一个新的自定义字段">{{ trans('admin/custom_fields/general.create_field') }}</a>
         </div>
       </div><!-- /.box-header -->
       <div class="box-body">
@@ -85,8 +85,8 @@
           <thead>
             <tr>
               <th>{{ trans('general.name') }}</th>
-              <th>Help Text</th>
-              <th>DB Field</th>
+              <th>帮助文本</th>
+              <th>数据库字段</th>
               <th>{{ trans('admin/custom_fields/general.field_format') }}</th>
               <th>{{ trans('admin/custom_fields/general.field_element_short') }}</th>
               <th>{{ trans('admin/custom_fields/general.fieldsets') }}</th>

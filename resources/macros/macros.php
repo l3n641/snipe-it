@@ -493,8 +493,8 @@ Form::macro('two_factor_options', function ($name = "two_factor_enabled", $selec
 Form::macro('customfield_elements', function ($name = "customfield_elements", $selected = null, $class = null) {
 
     $formats = array(
-        'text' => 'Text Box',
-        'listbox' => 'List Box',
+        'text' => '文本框',
+        'listbox' => '列表框',
      //   'checkbox' => 'Checkbox',
      //   'radio' => 'Radio Buttons',
     );
